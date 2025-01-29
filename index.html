@@ -1,0 +1,116 @@
+		
+
+     
+     
+        <!DOCTYPE html>
+         
+        <html>
+         
+        <head>
+         
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />         
+        <title>start</title>
+        <link href="style.css" rel="stylesheet" />
+         
+        </head>
+        <style>    
+           
+    :root {
+        /* VARIABLES */
+        --color-1: #030E0E;   /* original bar is #001216 */
+        --color-2: #ADD85F;   /* font */
+    } 
+
+				
+				
+            #bgu {
+                    background-image: url("https://i.imgur.com/GGNZuLe.jpeg");
+                    background-size: cover;
+                    display: block;
+                    filter: blur(5px);
+                    -webkit-filter: blur(5px);
+                    height: 105%;
+                    width:105%;
+                    left: -12px;
+                    top: -12px;
+                    position: fixed;
+                    right: 0;
+                    z-index: 1;
+            }
+           
+        #banners {
+                    background-color:var(--color-1);
+                    position:fixed;
+					text-align:center;
+                    width:100%;
+                  //  height:34px;
+                    margin:auto;
+                    top:49%;
+                    left:0px;
+                  //  border-top:1px solid var(--color-2);
+                  //  border-bottom:1px solid var(--color-2);
+                  //  outline:1px solid var(--color-1);
+                    z-index:9998;
+            }
+     
+            #links {
+                  //  position:fixed;
+                    text-transform:lowercase;
+                    font-size:10px;
+                    font-family: "Verdana";
+                    letter-spacing:1px;
+                    font-style:normal;
+                    margin:5px 0;
+                  //  top:50%;
+                  //  margin-top:0px;
+                    width:100%;
+                  //  padding:3px 8px;
+                    z-index:9999;
+            }
+           
+            #links a {
+                    color:var(--color-2);
+                    text-decoration:none;
+                    -moz-transition-duration:.7s;
+                    -webkit-transition-duration:.7s;
+                    -o-transition-duration:.7s;
+                    padding:2px;
+                    border:1px solid var(--color-1);
+					          border-radius: 12%;
+                    outline:1px solid var(--color-1);
+            }
+           
+            #links a:hover {
+                    color:var(--color-1);
+                    background-color:var(--color-2);
+                    -moz-transition-duration:.4s;
+                    -webkit-transition-duration:.4s;
+                    -o-transition-duration:.4s;
+                    border:1px solid var(--color-1);
+                    outline:1px solid var(--color-2);
+                    padding:2px;    
+            }
+     
+         
+        </style>
+
+
+
+        <body>
+			<div id="bgu"></div>
+			<div id="banners">
+				<div id="links" align="center">
+					<a href="https://coastdistrict.instructure.com/?login_success=1">canvas</a>
+					<a href="https://mail.google.com/mail/u/0/#inbox">inbox</a>
+					<a href="https://www.twitch.tv/">twitch</a>
+					<a href="http://www.youtube.com">youtube</a>
+					<a href="http://twitter.com/">twitter</a>
+					<a href="http://www.reddit.com">reddit</a>
+				</div>
+			</div>
+	
+
+    
+    </body>
+</html>
